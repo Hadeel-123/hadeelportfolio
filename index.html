@@ -2,12 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <title>Hadeel Portfolio</title>
 </head>
 <body>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1><span>H</span>adeel <span>A</span>buhajer</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#hero" data-after="Home">Home</a></li>
+                    <li><a href="#about" data-after="About">About</a></li>
+                    <li><a href="#projects" data-after="Projects">Projects</a></li>
+                    <li><a href="#contactus" data-after="contactus">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
   <!-- Hero Section -->  
   <section id="hero">
       <div class="hero container">
@@ -15,7 +40,7 @@
               <h1>Hello,<span></span></h1>
               <h1>My Name Is<span></span></h1>
               <h1>Hadeel<span></span></h1>
-              <a href="#" type="button" class="cta">Portfolio</a>
+              <a href="#projects" type="button" class="cta">Portfolio</a>
           </div>
       </div>
   </section>
@@ -26,23 +51,23 @@
        <div class="about container">
            <div class="about-top">
                <h1 class="section-title">About <span>me</span></h1>
-               <P>I am a student of computer programming at Fanshawe College in London, Ontario, Canada. I enjoy studying there very much and I love my field. I am looking forward to be a professional programmer and work in good reputation companies.</P>
+               <div class="pargh"><P>I am a student of computer programming at Fanshawe College in London, Ontario, Canada. I enjoy studying there very much and I love my field. I am looking forward to be a professional programmer and work in good reputation companies.</P></div>
            </div>
            <div class="about-bottom">
                <div class="about-item">
-                <div class="icon"><img src="./img/education.png" alt="education"></div>
+               <div class="icon"><i class="fas fa-user-graduate" style="font-size:50px; color: goldenrod;"></i></div>
                 <h2>Education</h2>
                 <h3><br>2019 - present</h3>
                 <p>Computer Programmer Analysts Diploma <br>Fanshawe College</p>
+                <p><br><br></p>    
                 <h3><br>2004 - 2008</h3>
-                <p>Educational Computer Bachelor’s Degree <br> The Islamic University</p>
+                <p>Educational Computer Bachelor’s Degree <br> The Islamic University<br><br></p>
                </div>
-
                <div class="about-item">
-                <div class="icon"><img src="./img/experience.png" alt="education"></div>
+                <div class="icon"><i class="fas fa-briefcase" style="font-size:50px; color: goldenrod;"></i></div>    
                 <h2>Experience</h2>
                 <h3><br>2021</h3>
-                <p>Web developer - Liquidation Max Inc.</p>
+                <p>bbbbbbbbbbbbbbbbbbbbbb</p>
                 <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
                 <h3><br>2009 - 2014</h3>
                 <p>Computer Instructor - King Faisal University</p>
@@ -50,9 +75,141 @@
                </div>
            </div>
        </div>
-
    </section>
   <!-- End About Section--> 
+<!-- Project Section-->
+<section id="projects">
+    <div class="projects container">
+        <div class="projects-header">
+        <h1 class="section-title animate__animated animate__bounce">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+            <div class="projects-item">
+                <div class="project-info">
+                  <h1>personal portfolio website</h1>
+                  <h2><br><br>HTML, CSS, JavaScript and Git + CI</h2>
+                  <p><br>A personal portfolio website is a business website that assists me in introducing myself.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./img/Project1.png" alt="Project1 img">
+                </div>
+            </div>
+            <div class="projects-item">
+                <div class="project-info">
+                  <h1>student loan calculator</h1>
+                  <h2><br><br>Java</h2>
+                  <p><br>This program is GUI student loan calculator app. it lets student see how modifying their repayment schedules would affect the loan cost in terms of the amount of interest that the student would pay.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./img/Project2.png" alt="img">
+                </div>
+            </div>
+            <div class="projects-item">
+                <div class="project-info">
+                  <h1>Help desk Website</h1>
+                  <h2><br><br>JavaScript,  jQuery,  C#,  SQL</h2>
+                  <p><br>On the Help Desk Website, users can add, update, and delete employee information. The user also has the option of selecting a department from a dropdown list.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./img/Project3.png" alt="img">
+                </div>
+            </div>
+            <div class="projects-item">
+                <div class="project-info">
+                    <h1>Statistics on real number</h1>
+                    <h2><br>C++</h2>
+                    <p><br>The program will compile the following statistics on a list
+                        of real number pairs:<br> minimum value-maximum value - median value - arithmetic mean-mean absolute deviation – (mean, median, mode) - variance - standard deviation -least squares regression line - outliers.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./img/Project4.png" alt="img">
+                </div>
+            </div>
+            <div class="projects-item">
+                <div class="project-info">
+                    <h1>personal portfolio website</h1>
+                    <h2><br><br>HTML, CSS, and JavaScript</h2>
+                    <p><br>A personal portfolio website is a business website that assists me in introducing myself.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./img/Project5.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Project Section-->
 
+<!-- Contact Section -->
+<section id="contactus">
+    <div class="contactus formcontainer">
+        <div><h1 class="section-title">Contact <span>info</span></h1></div>
+        <div class="contactus-form">
+            <form action="abuhajer.hadeel@gmail" method="post" id="email_form">
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Name" class="input-control" required>
+                    </div>
+                    <!-- <div class="input-group">
+                       <input type="text" id="email" placeholder="Email" class="input-control" required>
+                   </div> -->
+                   <div class="input-group">
+                       <input type="text" id="subject" placeholder="Subject" class="input-control" required>
+                   </div>
+                    
+                   <div class="input-group">
+                       <textarea placeholder="Message" id="message_content" class="input-control" required></textarea>
+                   </div>  
+                   
+                   
+
+                   <div class="submit-btn">
+                       <button type="button" onclick="submitEmail()" class="btn">
+                            <a>Send message</a>
+                       </button>
+                       
+
+                    </div>                                                                                   
+                </div>
+            </form>
+        </div>
+        <div class="contact-info-box">
+     
+                <div class="contactus-info">
+                    <div class="contact-icon"><i class="fas fa-envelope-open-text" style="font-size:40px; color: goldenrod;"></i></div> 
+                    <div class="contact-info">
+                        <h2><br><a style="color:black; text-decoration: none;" href="mailto:abuhajer.hadeel@gmail.com">abuhajer.hadeel@gmail.com</a><br></h2>
+                    </div>
+                </div>
+           
+                <div class="contactus-info">
+                        <div class="contact-icon"><i class="fas fa-map-marked-alt" style="font-size:40px; color: goldenrod;"></i></div>   
+                        <div class="contact-info">
+                           
+                            <h2><br>Brushland Crescent<br></h2>
+                        </div>
+                </div> 
+        </div>      
+    </div>
+</section>
+<!-- End Contact Section -->
+
+<!-- Footer-->
+<section id="footer">
+<div class="footer container">
+    <div class="brand"><h1><span>H</span>adeel <span>A</span>buhajer</h1></div>
+    <div class="social-icon">
+        <div class="social-item">
+            <a href="#"><i class="fab fa-linkedin" style="font-size:25px; color: goldenrod;"></i></a>  
+        </div>
+        <div class="social-item">
+            <a href="#"><i class="fab fa-facebook-square" style="font-size:25px; color: goldenrod;"></i></a>  
+        </div>
+    </div>
+    <p>Copyright © 2021 Abuhajer. All rights reserved</p>
+</div>
+</section>
+<!-- End Footer-->
+<script src="./app.js"></script>
 </body>
 </html>
