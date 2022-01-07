@@ -393,14 +393,29 @@ p{
     margin-bottom: 10px;
     text-transform: uppercase;
 }
+#about .about-item .boldP {
+    color: white;
+    text-align: left;
+    font-weight:bold;
+    font-size: 1.3rem;
+
+} 
 #about .about-item p{
     color: white;
     text-align: left;
-
 }
+
 #about .pargh p{
     background-color: white;
     font-weight: unset;
+    text-align: justify;
+}
+#about .about-item ul{
+    color: white;
+    text-align: left;
+    font-weight:unset;
+    font-size:  1.3rem;
+    padding-left: 20px;
 }
 /* End About Section*/
 
