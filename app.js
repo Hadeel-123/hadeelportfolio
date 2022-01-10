@@ -11,7 +11,7 @@ hamburger.addEventListener('click', ()=>{
 
 document.addEventListener('scroll', () => {
    var scroll_postion = window.scrollY;
-   if(scroll_postion > 250){
+   if(scroll_postion > 25){
       header.style.backgroundColor = '#29323c'
    } else {
        header.style.backgroundColor = 'transparent'
@@ -46,3 +46,4 @@ function submitEmail(){
     const body = document.querySelector("body").appendChild(aTag)
     document.getElementById("mailTotag").click()
 }
+

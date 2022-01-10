@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./css/fontawesome-free-5.15.4-web/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel='stylesheet' type='text/css' href="/style.css">
+    
+    <script src="/css/fontawesome-free-5.15.4-web/js/all.js" data-auto-replace-svg="nest"></script>
     <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   /> -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
     <title>Hadeel Portfolio</title>
 </head>
 <body>
@@ -59,9 +61,9 @@
                 <h2>Education</h2>
                 <h3><br>2019 - present</h3>
                 <p>Computer Programmer Analysts Diploma <br>Fanshawe College</p>
-                <p><br></p>    
+                <p><br><br></p>    
                 <h3><br>2004 - 2008</h3>
-                <p>Educational Computer Bachelor’s Degree <br> The Islamic University<br><br></p>
+                <p>Educational Computer Bachelor’s Degree <br> The Islamic University<br><br><br></p>
                </div>
                <div class="about-item">
                 <div class="icon"><i class="fas fa-briefcase" style="font-size:50px; color: goldenrod;"></i></div>    
@@ -69,7 +71,10 @@
                 <h3><br>2021</h3>
                 <div class="boldP">Web Developer - Liquidation Max Inc.</div>
                 <ul>
-                    <li>Develop Search Engine Optimization (SEO) and schema markup</li>
+                    <li>Create a strategy for SEO optimization</li>
+                    <li>Verify accessibility functionality</li>
+                    <li>Make adjustments to meet <a style="color:goldenrod;" href="https://web.dev/vitals/" target="_blank"> web vitals </a> requirements</li>
+                    <li>Research keywords and integrate them into the website</li>                       
                     <li>Enhance the user experience.</li>
                 </ul>
                 <h3><br>2009 - 2014</h3>
@@ -79,9 +84,6 @@
                     <li>Instructed on the use of computer application such as Microsoft Office</li>
                 </ul>
                 </div>
-               <!-- <p>Taught students the computer programming including Java and C++ 
-                   and instructed on the use of computer application such as Microsoft Office and assessed students’ progress and completed necessary documentation related to readiness and competency levels</p>
-               </div>-->
            </div>
        </div>
    </section>
@@ -97,10 +99,17 @@
                 <div class="project-info">
                   <h1>Personal portfolio website</h1>
                   <h2><br><br>HTML, CSS, JavaScript and Git + CI</h2>
-                  <p><br>A personal portfolio website is a business website that assists me in introducing myself.</p>
+                  <p><br>A personal portfolio website is used to represent myself as a developer.</p>
                 </div>
                 <div class="project-img">
-                    <img src="./img/Project1.png" alt="Project1 img">
+                    <picture>
+                        <source srcSet="/img/hero.avif" type="image/avif" />
+                        <source srcSet="/img/hero.png" type="image/png" />
+                        <img
+                        width="1280" height="720" decoding="async" loading="lazy"
+                        src="/img/hero.png"  alt="Project1 img" />
+                    </picture>
+                     
                 </div>
             </div>
             <div class="projects-item">
@@ -110,7 +119,14 @@
                   <p><br>This program is GUI student loan calculator app. it lets student see how modifying their repayment schedules would affect the loan cost in terms of the amount of interest that the student would pay.</p>
                 </div>
                 <div class="project-img">
-                    <img src="./img/Project2.png" alt="img">
+                    <picture>
+                        <source srcSet="/img/Project2.avif" type="image/avif" />
+                        <source srcSet="/img/Project2.png" type="image/png" />
+                        <img
+                        width="1280" height="720" decoding="async"
+                        src="/img/Project2.png"  alt="Project2 img" />
+                      </picture>
+                    
                 </div>
             </div>
             <div class="projects-item">
@@ -120,7 +136,13 @@
                   <p><br>On the Help Desk Website, users can add, update, and delete employee information. The user also has the option of selecting a department from a dropdown list.</p>
                 </div>
                 <div class="project-img">
-                    <img src="./img/Project3.png" alt="img">
+                    <picture>
+                        <source srcSet="/img/Project3.avif" type="image/avif" />
+                        <source srcSet="/img/Project3.png" type="image/png" />
+                        <img
+                        width="1280" height="720" decoding="async" loading="lazy"
+                        src="/img/Project3.png"  alt="Project3 img" />
+                    </picture>
                 </div>
             </div>
             <div class="projects-item">
@@ -131,17 +153,29 @@
                         of real number pairs:<br> minimum value-maximum value - median value - arithmetic mean-mean absolute deviation – (mean, median, mode) - variance - standard deviation -least squares regression line - outliers.</p>
                 </div>
                 <div class="project-img">
-                    <img src="./img/Project4.png" alt="img">
+                    <picture>
+                        <source srcSet="/img/Project4.avif" type="image/avif" />
+                        <source srcSet="/img/Project4.png" type="image/png" />
+                        <img
+                        width="1280" height="720" decoding="async"
+                        src="/img/Project4.png"  alt="Project4 img" />
+                      </picture>
                 </div>
             </div>
             <div class="projects-item">
                 <div class="project-info">
                     <h1>Personal portfolio website</h1>
                     <h2><br><br>HTML, CSS, and JavaScript</h2>
-                    <p><br>A personal portfolio website is a business website that assists me in introducing myself.</p>
+                    <p><br>A personal portfolio website is used to represent myself as a developer.</p>
                 </div>
                 <div class="project-img">
-                    <img src="./img/Project5.png" alt="img">
+                    <picture>
+                        <source srcSet="/img/Project5.avif" type="image/avif" />
+                        <source srcSet="/img/Project5.png" type="image/png" />
+                        <img
+                        width="1280" height="720" decoding="async"
+                        src="/img/Project5.png"  alt="Project5 img" />
+                      </picture>
                 </div>
             </div>
         </div>
@@ -212,7 +246,7 @@
             <a href="https://www.linkedin.com/in/hadeel-abuhajer-b7a3541b9/" target="_blank"><i class="fab fa-linkedin" style="font-size:25px; color: goldenrod;"></i></a>  
         </div>
         <div class="social-item">
-            <a href="https://www.facebook.com/hadeel.ali.169405" target="_blank"><i class="fab fa-facebook-square" style="font-size:25px; color: goldenrod;"></i></a>  
+            <a href="https://github.com/Hadeel-123" target="_blank"><i class="fab fa-github-square" style="font-size:25px; color: goldenrod;"></i></a>  
         </div>
     </div>
     <p>Copyright © 2021 Abuhajer. All rights reserved</p>
