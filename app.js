@@ -40,9 +40,11 @@ function submitEmail(){
 
 
     const aTag = document.createElement("a");
+    
     aTag.href="mailto:abuhajer.hadeel@gmail.com?"+encodeURI("subject="+subject+"&body="+MessageBody);
-    aTag.id="mailTotag"
-
+    aTag.id="mailTotag";
+    aTag.target="_blank";
+    
     const body = document.querySelector("body").appendChild(aTag)
     document.getElementById("mailTotag").click()
 }
